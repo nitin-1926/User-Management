@@ -1,0 +1,20 @@
+.ctk-wrapper{
+  position: relative;
+  height: 100vh;
+}
+
+.ctk-sub-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ctk-form-error{
+  color: red;
+  text-align: right;
+  margin: 0px;
+  font-size: 0.8rem;
+}
+.ctk-form-input-wrapper{
+  margin: 10px 0px;
+}
