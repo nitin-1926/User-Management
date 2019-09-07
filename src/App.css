@@ -1,20 +1,36 @@
-.ctk-wrapper{
-  position: relative;
+.h-100vh{
   height: 100vh;
 }
-
-.ctk-sub-container{
-  position: absolute;
+.container-center{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  position: absolute;
 }
-.ctk-form-error{
-  color: red;
-  text-align: right;
+
+.m-0 {
   margin: 0px;
-  font-size: 0.8rem;
 }
-.ctk-form-input-wrapper{
-  margin: 10px 0px;
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.stm-cursor {
+  cursor: pointer;
+}
+.stm-input-error{
+  color: red;
+  font-size: 12px;
+  text-align: right;
+}
+
+.stm-img-wrapper{
+  background-color: gray;
+  position: relative;
+  height: 100px;
+}
+.stm-img-p{
+    font-size: 3rem;
+    margin: 0;
+    color: white;
 }

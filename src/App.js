@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import { Test } from './component';
+import { BrowserRouter as Router } from 'react-router-dom'
+import Root from './pages/Root';
 
-export default class App extends Component {
-
-  render() {
-    return (
-      <React.Fragment>
-        <div>
-          <h1>hello one</h1>
-        </div>
-      </React.Fragment>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Root />
+    </Router>
+  );
 }
+
+export default App;
